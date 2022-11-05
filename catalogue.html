@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATALOGUE</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container-big">
+                <div class="header__settings">
+                    <div class="header__language" data-action="change-lang">
+                        <span class="lang lang-caurrent">eng.</span>
+                        <span class="lang">rus.</span>
+                    </div>
+                    <div class="header__account-options">
+                        <span data-action="login">Login</span>
+                        <span data-action="register">Register</span>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <nav class="header__navigation header-left">
+                        <ul class="header__menu header-menu">
+                            <div class="header__search">
+                                <input type="text" class="search-input" placeholder="search" data-action="search">
+                                <button class="search-button" data-action="go-search">
+                                    <img src="./img/icons/search-icon.svg">
+                                </button>
+                            </div>
+
+                            <li><a href="./catalogue.html" class="click">SHOP.</a></li>
+                            <li><a href="./product.html" class="click">COMMUNITY.</a></li>
+                            <li><a href="#" class="click">SALE.</a></li>
+                            <li><a href="#" class="click">NEWS.</a></li>
+                        </ul>
+
+                        <div class="header__cart" id="cart">
+                            <img src="./img/icons//cart-icon.svg" alt="cart" class="cart-icon">
+                            <span>Cart</span>
+                        </div>
+                    </nav>
+                    <div class="header__center header-center">
+                        <a href="./index.html" id="logo" class="header__logo">
+                            <img src="" class="user-avatar__img">
+                        </a>
+                    </div>
+                    <nav class="header__navigation header-right">
+                        <div class="header__search">
+                            <input type="text" class="search-input" placeholder="search" data-action="search">
+                            <button class="search-button">
+                                <img src="./img/icons/search-icon.svg">
+                            </button>
+                        </div>
+                        <div class="header__cart" id="cart">
+                            <img src="./img/icons//cart-icon.svg" alt="cart" class="cart-icon">
+                            <span>Cart</span>
+                        </div>
+                        <div id="header__burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__page-title">
+                <div class="page-title__container-big">
+                    <h1 class="page-title__title title">Catalogue</h1>
+                </div>
+            </section>
+            <section class="main__options">
+                <div class="options__container-big">
+                    <div class="options__option" id="filter">
+                        <div class="option__name">
+                            Filter
+                        </div>
+                    </div>
+                    <div class="options__option" id="sort">
+                        <div class="option__name">
+                            Sort by
+                        </div>
+                    </div>
+                    <div class="options__option" id="view">
+                        <div class="option__name">
+                            View
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__catalogue">
+                <div class="catalogue__container-big">
+                    <div class="catalogue__row">
+                        <div class="row__left">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product1-img1.png" alt="retro#4" class="product__img"></div>
+                                    <div class="product__img-wrapper product__img-empty"><img src="./img/catalogue/product-img-empty.svg" alt="retro#4" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Retro#4</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__right">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product2-img1.png" alt="retro#4" class="product__img"></div>
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product2-img2.png" alt="retro#4" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Retro#6</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalogue__row">
+                        <div class="row__left">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product3-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product3-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__right row-single">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product4-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                            <div class="catalogue__product catalogue__product-single">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product4-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="" class="catalogue__all-width">
+                        <img src="./img/catalogue/all-width__background.png" class="all-width__background">
+                    </a>
+
+                    <div class="catalogue__row">
+                        <div class="row__left row-single">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product5-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                            <div class="catalogue__product circle-img">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product5-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Slan figure</a>
+                                    <span class="product__price">$499.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__right row-single">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product6-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product6-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalogue__row">
+                        <div class="row__left">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product7-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                    <div class="product__img-wrapper product__img-empty"><img src="./img/catalogue/product-img-empty.svg" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="row__right">
+                            <img src="./img/catalogue/decor1.png" class="catalogue__decor">
+                        </a>
+                    </div>
+
+                    <div class="catalogue__row">
+                        <div class="row__left row-single">
+                            <div class="catalogue__product circle-img">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product8-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Slan figure</a>
+                                    <span class="product__price">$499.00</span>
+                                </div>
+                            </div>
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product8-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__right">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product9-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                    <div class="product__img-wrapper product__img-empty"><img src="./img/catalogue/product-img-empty.svg" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalogue__row">
+                        <div class="row__left row-single">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product10-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product10-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__right row-single">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product11-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product11-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalogue__row">
+                        <a href="" class="row__left">
+                            <img src="./img/catalogue/decor2.png" class="catalogue__decor">
+                        </a>
+                        <div class="row__right row-single">
+                            <div class="catalogue__product circle-img">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product12-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Slan figure</a>
+                                    <span class="product__price">$499.00</span>
+                                </div>
+                            </div>
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product12-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="catalogue__row">
+                        <div class="row__left">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product13-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product13-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__right">
+                            <div class="catalogue__product">
+                                <div class="product__preview">
+                                    <div class="card-for-client">
+                                        <img src="./img/icons/white-cart.svg">
+                                    </div>
+                                    <!--
+                                    <div class="card-for-admin none">
+                                        <img src="./img/icons/close-icon.svg">
+                                        <img src="./img/icons/edit-icon.svg">
+                                    </div>
+                                    -->
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product14-img1.png" alt="Funko POP figure" class="product__img"></div>
+                                    <div class="product__img-wrapper"><img src="./img/catalogue/product14-img2.png" alt="Funko POP figure" class="product__img"></div>
+                                </div>
+                                <div class="product__info">
+                                    <a href="" class="product__name">Funko POP figure</a>
+                                    <span class="product__price">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__navigation">
+                <div class="navigation__container-big">
+                    <button class="navigation__arrow arrow-prev" data-action="pref">
+                        <img src="./img/icons/arrow.svg">
+                    </button>
+                    <div class="navigation__pagination">
+                        <span class="pagination__near">
+                            <a href="" class="pagination__el page-current">01</a>
+                            <a href="" class="pagination__el">02</a>
+                            <a href="" class="pagination__el">03</a>
+                        </span>
+                        <span>...</span>
+                        <a href="" class="pagination__last">14</a>
+                    </div>
+                    <button class="navigation__arrow arrow-next" data-action="next">
+                        <img src="./img/icons/arrow.svg">
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer-head">
+                    <div class="footer-head__main">
+                        <div class="footer__logo">
+                            <a href="./index.html" class="footer-logo">
+                                <img src="">
+                            </a>
+                            <a href="./index.html">MANABU.</a>
+                        </div>
+                        <div class="footer__shop footer-el">
+                            <ul class="footer-list">
+                                <span>Shop</span>
+                                <a href="">New releases</a>
+                                <a href="">All collections</a>
+                                <a href="">Sale</a>
+                                <a href="">Community</a>
+                            </ul>
+                        </div>
+                        <div class="footer__terms footer-el">
+                            <ul class="footer-list">
+                                <span>Terms of service</span>
+                                <a href="">Help</a>
+                                <a href="">Delivery</a>
+                                <a href="">Terms & Conditions</a>
+                                <a href="">Returns</a>
+                            </ul>
+                        </div>
+                        <div class="footer__legal footer-el">
+                            <ul class="footer-list">
+                                <span>Legal</span>
+                                <a href="">Privacy</a>
+                                <a href="">Statements</a>
+                                <a href="">Cookies</a>
+                                <a href="">Modern Slavery Statement</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-head__more">
+                        <div class="footer-head__date">
+                            <span>10th October Renal Usmanov</span>
+                        </div>
+                        <a href="https://www.instagram.com/4eeroke/" class="footer-head__insta footer-social">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="" class="footer-head__facebook footer-social">
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://t.me/gatttsu" class="footer-head__telegram footer-social">
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <span class="copyright__stroke">@2022 Manabu Company Inc.</span>
+                    <div class="footer__author">
+                        <span>Website design by <a href="">Renal Usmanov</a></span>
+                        <span>Coded by <a href="">Renal Usmanov</a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANABU</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container-big">
+                <div class="header__settings">
+                    <div class="header__language" data-action="change-lang">
+                        <span class="lang lang-caurrent">eng.</span>
+                        <span class="lang">rus.</span>
+                    </div>
+                    <div class="header__account-options">
+                        <span data-action="login">Login</span>
+                        <span data-action="register">Register</span>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <nav class="header__navigation header-left">
+                        <ul class="header__menu header-menu">
+                            <div class="header__search">
+                                <input type="text" class="search-input" placeholder="search" data-action="search">
+                                <button class="search-button" data-action="go-search">
+                                    <img src="./img/icons/search-icon.svg">
+                                </button>
+                            </div>
+
+                            <li><a href="./catalogue.html" class="click">SHOP.</a></li>
+                            <li><a href="./product.html" class="click">COMMUNITY.</a></li>
+                            <li><a href="" class="click">SALE.</a></li>
+                            <li><a href="" class="click">NEWS.</a></li>
+                        </ul>
+
+                        <div class="header__cart" id="cart">
+                            <img src="./img/icons//cart-icon.svg" alt="cart" class="cart-icon">
+                            <span>Cart</span>
+                        </div>
+                    </nav>
+                    <div class="header__center header-center">
+                        <a href="" id="logo" class="header__logo">
+                            <img src="" class="user-avatar__img">
+                        </a>
+                    </div>
+                    <nav class="header__navigation header-right">
+                        <div class="header__search">
+                            <input type="text" class="search-input" placeholder="search" data-action="search">
+                            <button class="search-button">
+                                <img src="./img/icons/search-icon.svg">
+                            </button>
+                        </div>
+                        <div class="header__cart" id="cart">
+                            <img src="./img/icons//cart-icon.svg" alt="cart" class="cart-icon">
+                            <span>Cart</span>
+                        </div>
+                        <div id="header__burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__hero">
+                <div class="hero__container-big">
+                    <div class="hero__left-side">
+                        <img src="./img/main__hero/hero-img.png" alt="kaws" class="hero__hero-img">
+                    </div>
+                    <div class="hero__right-side">
+                        <div class="hero__text">
+                            <img src="./img/main__hero/hero-text.svg" alt="kaws x grotto" class="hero__text-img">
+                            <img src="./img/main__hero/exlusive calloboration.svg" alt="exlusive calloboration" class="hero__subtext-img">
+                        </div>
+                        <img src="./img/main__hero/right-img.png" alt="kaws hand" class="hero__right-img">
+                    </div>
+                </div>
+            </section>
+            <marquee behavior="alternate" scrollamount="25" direction="right" class="live-line">
+                <span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span><span>new arrival</span>
+            </marquee>
+            <section class="main__exclusive">
+                <div class="exclusive__container-big">
+                    <div class="exclusive__box">
+                        <h2 class="exclusive__title title">KAWS EXLUSIVE COLLECTION</h2>
+                        <div class="exclusive__content exclusive-content">
+                            <div class="exclusive-content__left">
+                                <img src="./img/main__exclusive/image.png" alt="kaws" class="exclusive-content__img">
+                            </div>
+                            <div class="exclusive-content__order">
+                                <div class="exclusive-content__offer">
+                                    <p class="exclusive-content__paragraph paragraph">
+                                        Brian Donnelly, better known as KAWS, began his career as an animator and graffiti artist in Brooklyn, New York. Throughout his career, he has created a wide range of goods and works of art that range from whimsical figurines and everyday toys to art installations that allow the imagination to run wild.
+                                    </p>
+                                    <a href="" class="exclusive-content__more">
+                                        <span>Learn more</span>
+                                        <img src="./img/icons/arrow.svg">
+                                    </a>
+                                    <a href="" class="exclusive-content__button">See more</a>
+                                </div>
+                                <div class="exclusive-content__product product">
+                                    <div class="product__img-box">
+                                        <div class="card-for-client">
+                                            <img src="./img/icons/white-cart.svg">
+                                        </div>
+                                        <!--
+                                        <div class="card-for-admin none">
+                                            <img src="./img/icons/close-icon.svg">
+                                            <img src="./img/icons/edit-icon.svg">
+                                        </div>
+                                        -->
+                                        <img src="./img/main__exclusive/product.png" class="product__img">
+                                    </div>
+                                    <a href="#" class="product__name">kaws’s RENTGEN</a>
+                                    <span class="product__price">$299.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <marquee behavior="alternate" scrollamount="25" direction="right" class="live-line">
+                <span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span><span>Sale up to 50%</span>
+            </marquee>
+            <section class="main__retro">
+                <div class="retro__container-big">
+                    <div class="retro__left">
+                        <p class="retro__paragraph paragraph">
+                            These collections are participating in our <a href="">sale</a>. Please specify the <a href="">terms of the promotion here</a>.
+                        </p>
+                        <div class="retro__navigation">
+                            <span>Retro</span>
+                            <div class="slick__arrows retro__arrows"></div>    
+                        </div>
+                    </div>
+                    <div class="slick__slider retro__slider">
+                        <div class="slider-slide">
+                            <div class="retro__product-img-box">
+                                <div class="card-for-client">
+                                    <img src="./img/icons/white-cart.svg">
+                                </div>
+                                <!--
+                                <div class="card-for-admin none">
+                                    <img src="./img/icons/close-icon.svg">
+                                    <img src="./img/icons/edit-icon.svg">
+                                </div>
+                                -->
+                                <img src="./img/main__retro/product1.png" alt="retro#1" class="retro__product-img">
+                            </div>
+                            <a href="" class="product__name">Retro#1</a>
+                            <div class="product__price">
+                                <span class="product__discount">$99.00</span>
+                                <span class="product-price">$99.00</span>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <div class="retro__product-img-box">
+                                <div class="card-for-client">
+                                    <img src="./img/icons/white-cart.svg">
+                                </div>
+                                <!--
+                                <div class="card-for-admin none">
+                                    <img src="./img/icons/close-icon.svg">
+                                    <img src="./img/icons/edit-icon.svg">
+                                </div>
+                                -->
+                                <img src="./img/main__retro/product2.png" alt="retro#1" class="retro__product-img">
+                            </div>
+                            <a href="" class="product__name">Retro#2</a>
+                            <div class="product__price">
+                                <span class="product__discount">$199.00</span>
+                                <span class="product-price">$199.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__emo">
+                <div class="emo__container-big">
+                    <div class="emo__left">
+                        <div class="emo__navigation">
+                            <span>Emo Dunk</span>
+                            <div class="slick__arrows emo__arrows"></div>    
+                        </div>
+                    </div>
+                    <div class="slick__slider emo__slider">
+                        <div class="slider-slide">
+                            <div class="emo__product-img-box">
+                                <div class="card-for-client">
+                                    <img src="./img/icons/white-cart.svg">
+                                </div>
+                                <!--
+                                <div class="card-for-admin none">
+                                    <img src="./img/icons/close-icon.svg">
+                                    <img src="./img/icons/edit-icon.svg">
+                                </div>
+                                -->
+                                <img src="./img/main__emo/product1.png" alt="TV Reality" class="retro__product-img">
+                            </div>
+                            <a href="" class="product__name emo-product__name">TV Reality</a>
+                            <div class="product__price">
+                                <span class="product__discount">$1099.00</span>
+                                <span class="product-price">$1099.00</span>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <div class="emo__product-img-box circle-img">
+                                <div class="card-for-client">
+                                    <img src="./img/icons/white-cart.svg">
+                                </div>
+                                <!--
+                                <div class="card-for-admin none">
+                                    <img src="./img/icons/close-icon.svg">
+                                    <img src="./img/icons/edit-icon.svg">
+                                </div>
+                                -->
+                                <img src="./img/main__emo/product3.png" alt="Bomb" class="retro__product-img">
+                            </div>
+                            <a href="" class="product__name emo-product__name">Bomb</a>
+                            <div class="product__price">
+                                <span class="product__discount">$499.00</span>
+                                <span class="product-price">$499.00</span>
+                            </div>
+                        </div>
+                        <div class="slider-slide">
+                            <div class="emo__product-img-box">
+                                <div class="card-for-client">
+                                    <img src="./img/icons/white-cart.svg">
+                                </div>
+                                <!--
+                                <div class="card-for-admin none">
+                                    <img src="./img/icons/close-icon.svg">
+                                    <img src="./img/icons/edit-icon.svg">
+                                </div>
+                                -->
+                                <img src="./img/main__emo/product2.png" alt="Gucci Duck Boy" class="retro__product-img">
+                            </div>
+                            <a href="" class="product__name emo-product__name">Gucci Duck Boy</a>
+                            <div class="product__price">
+                                <span class="product__discount">$1499.00</span>
+                                <span class="product-price">$1499.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <marquee behavior="alternate" scrollamount="25" direction="right" class="live-line">
+                <span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span><span>All collections</span>
+            </marquee>
+            <section class="main__all">
+                <div class="all__container-small">
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img1.jpg" alt="all collections" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">165 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">ALL COLLECTIONS</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img2.jpg" alt="Illusion swamp" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">25 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">Illusion swamp</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img3.jpg" alt="kaws" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">11 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">kaws</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img4.jpg" alt="retro" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">23 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">retro</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img5.jpg" alt="Collapse" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">8 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">Collapse</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img6.jpg" alt="Ambraxiboni" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">15 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">Ambraxiboni</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img7.jpg" alt="Emo dunk" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">27 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">Emo dunk</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="all__card category-card">
+                        <img src="./img/main__all/img8.jpg" alt="Mystic flow" class="category-card__background">
+                        <div class="category-card__frame">
+                            <div class="frame__head">
+                                <span class="frame__count" data-action="counter">20 items</span>
+                                <div class="frame__marker"></div>
+                            </div>
+                            <div class="frame__body">
+                                <div class="frame__title">Mystic flow</div>
+                                <div class="frame__paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ullamcorper ornare malesuada sed id lobortis. Eu id faucibus facilisis eros sit. Quis potenti eros, nisl nibh in. Bibendum urna odio sed rutrum.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <marquee behavior="alternate" scrollamount="25" direction="right" class="live-line">
+                <span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span><span>What’s new?</span>
+            </marquee>
+            <section class="main__constructor">
+                <div class="constructor__container-big">
+                    <div class="constructor__box">
+                        <div class="box-card">
+                            <div class="box-card__img">
+                                <img src="./img/main__constructor/medium.png">
+                            </div>
+                            <h4 class="box-card__title">Title</h4>
+                            <p class="box-card__paragraph paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit posuere fermentum scelerisque ac donec et tincidunt. Aliquam vitae luctus hendrerit diam dolor....
+                            </p>
+                        </div>
+                        <div class="box-card">
+                            <div class="box-card__img">
+                                <img src="./img/main__constructor/small.png">
+                            </div>
+                            <h4 class="box-card__title">Title</h4>
+                            <p class="box-card__paragraph paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing.....
+                            </p>
+                        </div>
+                        <div class="box-card">
+                            <div class="box-card__img">
+                                <img src="./img/main__constructor/big.png">
+                            </div>
+                            <h4 class="box-card__title">Title</h4>
+                            <p class="box-card__paragraph paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing.....
+                            </p>
+                        </div>
+                        <div class="box-card box-card__add">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__join">
+                <div class="join__container-big">
+                    <h2 class="join__title title">
+                        join our community to gain exlusive access to sales and more
+                    </h2>
+                    <div class="join__email">
+                        <input type="text" class="join__input" placeholder="Your e-mail">
+                        <button class="join__button">
+                            <span>Get on</span>
+                            <img src="./img/icons/arrow.svg">
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer-head">
+                    <div class="footer-head__main">
+                        <div class="footer__logo">
+                            <a href="" class="footer-logo">
+                                <img src="">
+                            </a>
+                            <a href="">MANABU.</a>
+                        </div>
+                        <div class="footer__shop footer-el">
+                            <ul class="footer-list">
+                                <span>Shop</span>
+                                <a href="">New releases</a>
+                                <a href="">All collections</a>
+                                <a href="">Sale</a>
+                                <a href="">Community</a>
+                            </ul>
+                        </div>
+                        <div class="footer__terms footer-el">
+                            <ul class="footer-list">
+                                <span>Terms of service</span>
+                                <a href="">Help</a>
+                                <a href="">Delivery</a>
+                                <a href="">Terms & Conditions</a>
+                                <a href="">Returns</a>
+                            </ul>
+                        </div>
+                        <div class="footer__legal footer-el">
+                            <ul class="footer-list">
+                                <span>Legal</span>
+                                <a href="">Privacy</a>
+                                <a href="">Statements</a>
+                                <a href="">Cookies</a>
+                                <a href="">Modern Slavery Statement</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-head__more">
+                        <div class="footer-head__date">
+                            <span>10th October Renal Usmanov</span>
+                        </div>
+                        <a href="" class="footer-head__insta footer-social">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="" class="footer-head__facebook footer-social">
+                            <span>Facebook</span>
+                        </a>
+                        <a href="" class="footer-head__telegram footer-social">
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <span class="copyright__stroke">@2022 Manabu Company Inc.</span>
+                    <div class="footer__author">
+                        <span>Website design by <a href="">Renal Usmanov</a></span>
+                        <span>Coded by <a href="">Renal Usmanov</a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATALOGUE</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper dark-mode">
+        <header class="header">
+            <div class="header__container-big">
+                <div class="header__settings">
+                    <div class="header__language" data-action="change-lang">
+                        <span class="lang lang-caurrent">eng.</span>
+                        <span class="lang">rus.</span>
+                    </div>
+                    <div class="header__account-options none">
+                        <span data-action="login">Login</span>
+                        <span data-action="register">Register</span>
+                    </div>
+                    <span class="header-welcome">Welcome, <a href="">user</a></span>
+                </div>
+                <div class="header__main">
+                    <nav class="header__navigation header-left">
+                        <ul class="header__menu header-menu">
+                            <div class="header__search">
+                                <input type="text" class="search-input" placeholder="search" data-action="search">
+                                <button class="search-button" data-action="go-search">
+                                    <img src="./img/icons/search-icon-white.svg">
+                                </button>
+                            </div>
+
+                            <li><a href="./catalogue.html" class="click">SHOP.</a></li>
+                            <li><a href="./product.html" class="click">COMMUNITY.</a></li>
+                            <li><a href="#" class="click">SALE.</a></li>
+                            <li><a href="#" class="click">NEWS.</a></li>
+                        </ul>
+
+                        <div class="header__cart" id="cart">
+                            <img src="./img/icons/white-cart.svg" alt="cart" class="cart-icon">
+                            <span>Cart</span>
+                        </div>
+                    </nav>
+                    <div class="header__center header-center">
+                        <a href="./index.html" id="logo" class="header__logo">
+                            <img src="" class="user-avatar__img">
+                        </a>
+                    </div>
+                    <nav class="header__navigation header-right">
+                        <div class="header__search">
+                            <input type="text" class="search-input" placeholder="search" data-action="search">
+                            <button class="search-button">
+                                <img src="./img/icons/search-icon-white.svg">
+                            </button>
+                        </div>
+                        <div class="header__cart" id="cart">
+                            <img src="./img/icons/white-cart.svg" alt="cart" class="cart-icon">
+                            <span>Cart</span>
+                        </div>
+                        <div id="header__burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__product-preview">
+                <div class="product-preview__container-big">
+                    <div class="product-preview__slider">
+                        <div class="product-preview__slide">
+                            <img src="./img/main__product-preview/img1.png" alt="kaws rentgen sit statue" class="product-preview__img">
+                        </div>
+                        <div class="product-preview__slide">
+                            <img src="./img/main__product-preview/img2.png" alt="kaws rentgen sit statue" class="product-preview__img">
+                        </div>
+                    </div>
+                    <div class="slider__controller"></div>
+                </div>
+            </section>
+            <section class="main__product-info">
+                <div class="product-info__content">
+                    <div class="product-info__container-big">
+                        <div class="product-info__body">
+                            <div class="product__head">
+                                <h3 class="product-title">kaws rentgen sit statue</h3>
+                                <div class="product__price">$499.00</div>
+                            </div>
+                            <span class="product__article-code">ld3451</span>
+                            <div class="product__buttons">
+                                <button class="product__button button-add-to-cart">ADD to cart - <span>499.00$</span></button>
+                                <button class="product__button button-buy-with">buy with <img src="./img/icons/g-pay-icon.svg"></button>
+                            </div>
+                            <p class="product__order">
+                                Order withtin 22 hours for free delivey by <a href="">Tuesday 30th October</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info__spoilers">
+                    <div class="spoiler">
+                        <div class="spoiler__head">
+                            <div class="spoiler__title">About</div>
+                            <div class="spoiler__button" data-action="show">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="spoiler__content">
+                            <p class="spoiler__paragraph paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique pellentesque bibendum eu, posuere. Facilisis orci sit pulvinar in senectus rutrum turpis adipiscing. Enim dui, lacinia cras mattis nec, a sed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="spoiler">
+                        <div class="spoiler__head">
+                            <div class="spoiler__title">COLLECTION</div>
+                            <div class="spoiler__button" data-action="show">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="spoiler__content">
+                            <p class="spoiler__paragraph paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique pellentesque bibendum eu, posuere. Facilisis orci sit pulvinar in senectus rutrum turpis adipiscing. Enim dui, lacinia cras mattis nec, a sed. Tristique pellentesque bibendum eu, posuere.
+                            </p>
+                            <a href="" class="spoiler__link">
+                                <span>Shop the collection</span>
+                                <img src="./img/icons/white-arrow.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="spoiler">
+                        <div class="spoiler__head">
+                            <div class="spoiler__title">Shipping</div>
+                            <div class="spoiler__button" data-action="show">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="spoiler__content">
+                            <p class="spoiler__paragraph paragraph">
+                                <span>Lorem ipsum dolor sit amet</span>
+                                <ul>
+                                    <li>Tristique pellentesque bibendum eu, posuere</li>
+                                    <li>Tristique pellentesque bibendum eu, posuere</li>
+                                    <li>Tristique pellentesque bibendum eu</li>
+                                    <li>Tristique pellentesque bibendum</li>
+                                </ul>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="spoiler">
+                        <div class="spoiler__head">
+                            <div class="spoiler__title">Returns</div>
+                            <div class="spoiler__button" data-action="show">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="spoiler__content">
+                            <p class="spoiler__paragraph paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique pellentesque bibendum eu, posuere. Facilisis orci sit pulvinar in senectus rutrum turpis adipiscing. Enim dui, lacinia cras mattis nec, a sed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer-head">
+                    <div class="footer-head__main">
+                        <div class="footer__logo">
+                            <a href="./index.html" class="footer-logo">
+                                <img src="">
+                            </a>
+                            <a href="./index.html">MANABU.</a>
+                        </div>
+                        <div class="footer__shop footer-el">
+                            <ul class="footer-list">
+                                <span>Shop</span>
+                                <a href="">New releases</a>
+                                <a href="">All collections</a>
+                                <a href="">Sale</a>
+                                <a href="">Community</a>
+                            </ul>
+                        </div>
+                        <div class="footer__terms footer-el">
+                            <ul class="footer-list">
+                                <span>Terms of service</span>
+                                <a href="">Help</a>
+                                <a href="">Delivery</a>
+                                <a href="">Terms & Conditions</a>
+                                <a href="">Returns</a>
+                            </ul>
+                        </div>
+                        <div class="footer__legal footer-el">
+                            <ul class="footer-list">
+                                <span>Legal</span>
+                                <a href="">Privacy</a>
+                                <a href="">Statements</a>
+                                <a href="">Cookies</a>
+                                <a href="">Modern Slavery Statement</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-head__more">
+                        <div class="footer-head__date">
+                            <span>10th October Renal Usmanov</span>
+                        </div>
+                        <a href="https://www.instagram.com/4eeroke/" class="footer-head__insta footer-social">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="" class="footer-head__facebook footer-social">
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://t.me/gatttsu" class="footer-head__telegram footer-social">
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <span class="copyright__stroke">@2022 Manabu Company Inc.</span>
+                    <div class="footer__author">
+                        <span>Website design by <a href="">Renal Usmanov</a></span>
+                        <span>Coded by <a href="">Renal Usmanov</a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/events.js"></script>
+</body>
+</html>
